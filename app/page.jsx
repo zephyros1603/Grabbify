@@ -1,14 +1,9 @@
 import { Button } from "@/components/ui/button";
 import React from "react";
-// import AvatarDemo from "./components/avatar.js";
-import Image from "next/image";
-
-import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 import BentoDemo from "./components/bentoDemo.jsx";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import TopBar from "../app/components/TopBar.jsx";
-import IconButton from "../app/components/CustomButton.jsx";
+import TopBar from "./components/TopBar.jsx";
+import IconButton from "./components/CustomButton.jsx";
 import { Input } from "@/components/ui/input";
 function Home() {
   return (
