@@ -5,6 +5,7 @@ import BentoDemo from "./components/bentoDemo.jsx";
 import TopBar from "./components/TopBar.jsx";
 import IconButton from "./components/CustomButton.jsx";
 import { Input } from "@/components/ui/input";
+import URLCopyCompo from "./components/urlCopy.jsx";
 function Home() {
   return (
     <div>
@@ -15,8 +16,8 @@ function Home() {
           <IconButton text={"OPtion 2"} />
           <IconButton text={"OPtion 3"} />
         </div>
-        <div className="w-[90vw] ">
-          <div className="h-80 w-[100%]  flex flex-row items-center justify-center gap-10">
+        <div className="w-[90vw] flex flex-col gap-10">
+          <div className="h-30 mt-[15vh] w-[100%]  flex flex-row items-center justify-center gap-10">
             <Input
               title="Email"
               type="email"
@@ -24,7 +25,10 @@ function Home() {
               className="w-[40vw]"
             />
             <Button className="w-[10vw]"> Submit</Button>
+
           </div>
+          <URLCopyCompo/>
+      
           {/* <AspectRatio ratio={16 / 9} className="bg-green-300"> */}
           <BentoDemo />
           {/* /  </AspectRatio> */}
