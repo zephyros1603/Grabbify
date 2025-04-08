@@ -22,9 +22,9 @@ function Home() {
               title="Email"
               type="email"
               placeholder="Yout input here "
-              className="w-[40vw]"
+              className="w-[40vw] rounded-full h-14"
             />
-            <Button className="w-[10vw]"> Submit</Button>
+            <Button className="w-[10vw] rounded-full h-14"> Submit</Button>
 
           </div>
           <URLCopyCompo/>
